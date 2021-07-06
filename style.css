@@ -102,3 +102,47 @@ body{
 .flex-area{
     padding-bottom: 100px;
 }
+.foot-end{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 90px;
+}
+
+.foot-end p{
+    padding-top: 15px;
+}
+.tag{
+    color: tomato;
+}
+.social-media{
+    display: flex;
+    margin-right: 10%;
+    margin-left: 10%;
+    box-shadow: 10px 10px 80px gray;
+    margin-bottom: 100px;
+    border-radius: 20px;
+}
+.media{
+    width: 50%;
+    padding: 2% 5%;
+     
+}
+.media h1{
+    
+    color: brown;
+    padding-left: 60px;
+}
+.subscribe{
+    width: 50%;
+    padding-left: 30px;
+}
+    
+.subscribe img{
+    width: 60%;
+    padding: 25px 25px;
+}
+.colory-3{
+    color: tomato;
+}
