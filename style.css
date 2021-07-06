@@ -2,11 +2,15 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0%;
 }
-.colory{
+.colory-1{
     color: chocolate;
+}
+.colory-2{
+    color: gray;
 }
 .first-container{
     display: flex;
+    margin-bottom: 150px;
 }
 .half-width{
     width: 50%;
@@ -18,6 +22,7 @@ body{
 }
 .half-width p{
     font-size: 25px;
+    padding-bottom: 15px;
 }
 .half-width img{
     width: 90%;
@@ -29,11 +34,39 @@ body{
     text-align: justify;
     
 }
-.button{
+.button-1{
     text-decoration: none;
     background-image: linear-gradient(tomato,red);
     padding: 15px 35px;
     border-radius: 25px;
     color: wheat;
-    font-weight: 800;
+    font-weight: 900;
+}
+.second-width{
+    width: 50%;
+    margin: 20px 20px;
+    text-align: justify;
+    margin-right: 68px;
+}
+.second-width p{
+    padding-bottom: 50px;
+}
+.second-width img{
+    width: 60%;
+    padding-left: 60px;
+    padding-top: 20px;
+    margin-left: 60px;
+}
+#about-bg{
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+}
+.button-2{
+    text-decoration: none;
+    background-image: linear-gradient(tomato,red);
+    margin-top: 50px;
+    padding: 15px 35px;
+    border-radius: 25px;
+    color: wheat;
+    font-weight:900;
 }
