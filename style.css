@@ -10,7 +10,7 @@ body{
 }
 .first-container{
     display: flex;
-    margin-bottom: 150px;
+    margin-bottom: 120px;
 }
 .half-width{
     width: 50%;
@@ -21,18 +21,14 @@ body{
     font-size: 50px;
 }
 .half-width p{
-    font-size: 25px;
+    font-size: 20px;
     padding-bottom: 15px;
+    text-align: justify;
 }
 .half-width img{
     width: 90%;
     padding-left: 20px;
     padding-top: 5px;
-}
-.intro{
-    margin: 30px;
-    text-align: justify;
-    
 }
 .button-1{
     text-decoration: none;
@@ -41,6 +37,7 @@ body{
     border-radius: 25px;
     color: wheat;
     font-weight: 900;
+    box-shadow: 5px 10px 5px;
 }
 .second-width{
     width: 50%;
@@ -50,6 +47,8 @@ body{
 }
 .second-width p{
     padding-bottom: 50px;
+    font-size: 20px;
+    padding-top: 20px;
 }
 .second-width img{
     width: 60%;
@@ -69,4 +68,37 @@ body{
     border-radius: 25px;
     color: wheat;
     font-weight:900;
+    box-shadow: 5px 10px 5px;
+}
+.my-recipy{
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+   padding-bottom: 20px;
+}
+.flex-parent{
+    display: flex;
+   margin-right: 1%;
+   margin-left: 1%;
+}
+.mini{
+    height: 45%;
+    padding:6px 10px;
+    text-align: justify;
+}
+.mini img{
+    width: 100%;
+    padding-bottom: 8px;
+}
+.mini h2{
+    color: saddlebrown;
+}
+.flex-children{
+    box-shadow: 10px 15px 30px gray;
+    margin: 3%;
+    padding:15px 10px;
+    border-radius: 15px;
+}
+.flex-area{
+    padding-bottom: 100px;
 }
